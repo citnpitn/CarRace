@@ -6,6 +6,7 @@ public class Wheel : MonoBehaviour
 {
     public WheelCollider wh;
     public Transform wheel_model;
+    public bool frontWheel;
 
     // Update is called once per frame
     void Update()
