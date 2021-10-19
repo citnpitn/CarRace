@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1280
     height: 941
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 104
+  controlID: 85
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 38
+  controlID: 18
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 39
+  controlID: 19
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -352,18 +352,18 @@ MonoBehaviour:
       y: 21
       width: 693
       height: 459
-    m_Scale: {x: 1.1255087, y: 1.1255087}
-    m_Translation: {x: 343.42505, y: 226.23677}
+    m_Scale: {x: 1.1790282, y: 1.1790282}
+    m_Translation: {x: 342.08542, y: 219.01408}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -305.12875
-      y: -201.00847
-      width: 615.7216
-      height: 407.8156
+      x: -290.14185
+      y: -185.75815
+      width: 587.7722
+      height: 389.30368
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 693, y: 480}
@@ -400,10 +400,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3e410000
-      m_LastClickedID: 16702
-      m_ExpandedIDs: c8b9ffff7cc4ffff7ce5ffff0ce6ffff24e7ffffb4f1ffff9ef6ffff4afbffff
+      scrollPos: {x: 0, y: 32}
+      m_SelectedIDs: d61bffff
+      m_LastClickedID: -58410
+      m_ExpandedIDs: 1cfbffff2afbffff38fbffff48fbffffd2420000fa420000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -419,7 +419,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 8}
+        m_ClientGUIView: {fileID: 9}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -464,9 +464,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -32.2278, y: -39.51242, z: -42.691505}
+    m_Target: {x: 230.87143, y: -11.649536, z: 158.74689}
     speed: 2
-    m_Value: {x: -32.2278, y: -39.51242, z: -42.691505}
+    m_Value: {x: 230.87143, y: -11.649536, z: 158.74689}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -513,20 +513,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.48286662, y: -0.33786884, z: 0.20906557, w: -0.780377}
+    m_Target: {x: 0.47694293, y: 0.5195153, z: -0.45761546, w: 0.5415229}
     speed: 2
-    m_Value: {x: -0.48286366, y: -0.33786678, z: 0.2090643, w: -0.7803722}
+    m_Value: {x: 0.47624895, y: 0.5203193, z: -0.4583236, w: 0.54073507}
   m_Size:
-    m_Target: 207.07349
+    m_Target: 73.77036
     speed: 2
-    m_Value: 207.07349
+    m_Value: 77.24645
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 0.6606696
-    m_SpeedNormalized: 0.3299998
+    m_Speed: 2
+    m_SpeedNormalized: 1
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -591,10 +591,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 285
+    x: 294
     y: 73
-    width: 714
-    height: 481
+    width: 693
+    height: 480
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
@@ -673,33 +673,33 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Models/Modular Track/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Models/Modular Track/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Nauczyciel\Documents\GitHub\CarRace\MultiRaceCoal
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8c410000
-    m_LastClickedID: 16780
-    m_ExpandedIDs: 000000007e41000000ca9a3b
+    m_SelectedIDs: a4460000
+    m_LastClickedID: 18084
+    m_ExpandedIDs: 000000006a430000784300006a450000a246000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Scenes
-      m_OriginalName: Scenes
+      m_Name: Materials
+      m_OriginalName: Materials
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 16778
+      m_UserData: 17270
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -716,7 +716,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007e410000
+    m_ExpandedIDs: 000000006a430000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -826,7 +826,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -6644
+  m_LastSelectedObjectID: -2328
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
