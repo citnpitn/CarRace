@@ -8,21 +8,44 @@ public class RaceController : MonoBehaviour
     public static int totalLaps = 1;
     public int timer = 5;
 
+    CheckpointController[] cars;
+
     void CountDown()
     {
         if(timer !=0)
-        {
-            timer--;
+        {     
             print("Rozpoczêciê wyœcigu za: " + timer);
+            timer--;
         }
     }
-    
-    
-    
+
+    void LateUpdate()
+    {
+        int finishers = 0;
+        foreach (CheckpointController c in cars)
+        {
+            if (c.lap == totalLaps + 1)
+                finishers++;
+        }
+        if (finishers >= cars.Length && racePending)
+        {
+            print("Race Finished!");
+            racePending = false;
+        }
+    }
+     
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating(nameof(CountDown), 3, 1);  
+        InvokeRepeating(nameof(CountDown), 3, 1);
+
+        GameObject[] carObjects = GameObject.FindGameObjectsWithTag("Car");
+        cars = new CheckpointController[carObjects.Length];
+
+        for(int i =0; i<cars.Length; i++)
+        {
+            cars[i] = carObjects[i].GetComponent<CheckpointController>();
+        }
     }
 
      
