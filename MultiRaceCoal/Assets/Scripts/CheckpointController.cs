@@ -9,10 +9,23 @@ public class CheckpointController : MonoBehaviour
     int checkpointCount;
 
     int nextCheckpoint;
+
+    public GameObject lastPoint;
     // Start is called before the first frame update
     void Start()
     {
+        GameObject[] points = GameObject.FindGameObjectsWithTag("Checkpoint");
         checkpointCount = GameObject.FindGameObjectsWithTag("Checkpoint").Length;
+        foreach(GameObject obj in points)
+        {
+            if(obj.name =="0")
+            {
+                lastPoint = obj;
+                
+
+                break;
+            }
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -23,6 +36,7 @@ public class CheckpointController : MonoBehaviour
             if(currentCheckpoint == nextCheckpoint)
             {
                 lastCheckpoint = currentCheckpoint;
+                lastPoint = other.gameObject;
                 if(lastCheckpoint == 0)
                 {
                     lap++;
